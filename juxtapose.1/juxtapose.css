@@ -1,0 +1,58 @@
+html, body {
+  height: 100%;
+}
+
+#textandimage {
+  border: 10px solid blue;
+  min-height: 50vmin;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 4vmin;
+  background-color: #ccc;
+  margin-top: 3vmin;
+  display: flex;
+  flex-direction: column;
+}
+
+#imageDiv {
+ border: 10px solid yellow;
+}
+
+#attribution {
+  margin-top: 1em;
+}
+
+#buttons{
+  border: 10px solid red;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  /*margin-top: 88vmin;*/
+}
+
+#social {
+/*   border: 5px solid blue; */
+  text-align: center;
+  margin-top: 1vmin;
+}
+
+#image {
+  max-height: 60vmin;
+  max-width: 100%;
+  display: block;
+  margin: auto
+}
+
+#quote {
+/*   font-family: 'Raleway', sans-serif; */
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em; 
+  padding-top: 2%;
+  margin: auto;
+}
+/* Why is this styling the text in the buttons? */
+#author {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.6em;
+}
